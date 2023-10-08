@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.image-box{
+    perspective-origin: 0%;
+    perspective: 1500px;
+    transform-style: preserve-3d;
+    box-sizing: border-box;
+}
+
+.image{
+    backface-visibility: hidden;
+    transform: rotateY(-35deg) rotateX(15deg);
+    height: auto;
+    max-width: 100%;
+}
